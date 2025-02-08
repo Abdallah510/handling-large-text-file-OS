@@ -1,0 +1,10 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec "/mnt/c/Program Files/JetBrains/CLion 2024.1/bin/ttyfix" /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/OC/Desktop/os/project/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/OC/Desktop/os/project -B /mnt/c/Users/OC/Desktop/os/project/cmake-build-debug; exitcode=$?; sleep 0.001; (exit $exitcode)"
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/OC/Desktop/os/project/cmake-build-debug
